@@ -146,8 +146,8 @@
 }
 
 @keyframes scaleUp {
-	0% { transform: translateX(0) scale(0); }
-	100% { transform: translateX(0) scale(1); }
+	0% { -webkit-transform: translateX(0) scale(0); transform: translateX(0) scale(0); }
+	100% { -webkit-transform: translateX(0) scale(1); transform: translateX(0) scale(1); }
 }
 
 .mi-slider ul:first-child li:first-child {
@@ -255,23 +255,23 @@
 }
 
 @keyframes moveFromRight {
-	0% { transform: translateX(600%); }
-	100% { transform: translateX(0); }
+	0% { -webkit-transform: translateX(600%); transform: translateX(600%); }
+	100% { -webkit-transform: translateX(0); transform: translateX(0); }
 }
 
 @keyframes moveFromLeft {
-	0% { transform: translateX(-600%); }
-	100% { transform: translateX(0); }
+	0% { -webkit-transform: translateX(-600%); transform: translateX(-600%); }
+	100% { -webkit-transform: translateX(0); transform: translateX(0); }
 }
 
 @keyframes moveToRight {
-	0% { transform: translateX(0%); }
-	100% { transform: translateX(600%); }
+	0% { -webkit-transform: translateX(0%); transform: translateX(0%); }
+	100% { -webkit-transform: translateX(600%); transform: translateX(600%); }
 }
 
 @keyframes moveToLeft {
-	0% { transform: translateX(0%); }
-	100% { transform: translateX(-600%); }
+	0% { -webkit-transform: translateX(0%); transform: translateX(0%); }
+	100% { -webkit-transform: translateX(-600%); transform: translateX(-600%); }
 }
 
 .mi-slider {
